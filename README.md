@@ -1,11 +1,4 @@
 # Discord Bot in Python Tutorial
-A simple discord bot as a teaching exercise for learning Python and Discord.py.
-This exercise is aimed at beginner programmers who have some experience with python
-but want a simple project to practice their skills on. It's also suitable for anyone
-who wants to start a discord bot using discord.py!
-
-You can view a completed version of this project [here](https://github.com/Ztuu/Discord-Python-Bot-Model-Answer)
-which I have created as a model answer.
 
 ## Before You Start
 Before you start with the tasks below you will have to create a bot within the Discord developer portal.
