@@ -73,7 +73,6 @@ Make sure to remove this if you publish your bot!
 * [Discord Developer Portal](https://discord.com/developers/applications, "Discord Developer Portal")
 * [Python Docs](https://docs.python.org/3/contents.html "Python Docs") - The full Python documentation.
 * [Python OS Module](https://docs.python.org/3/library/os.html) - Useful for browsing files/directories and managing filepaths.
-* [Model Answer](https://github.com/Ztuu/Discord-Python-Bot-Model-Answer) -  A model answer repository I created by completing the tasks myself.
 
 
 
