@@ -13,7 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
 # External Packages
 import os
 import discord
@@ -26,6 +25,14 @@ import utils
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 client = discord.Client()
+
+def get_channel_by_name(client, guild, name):
+    """Returns a channel by name from a specific guild"""
+    for server in client.guilds:
+        if server == guild:
+            for channel in server.text_channels:
+                if channel.name == name:
+                    return channel
 
 
 @client.event
@@ -64,7 +71,7 @@ async def on_message(message):
         if command == "test":
             response = "test successful"
             await current_channel.send(response)
-		elif command == "stop":
+        elif command == "stop":
             await client.logout()
         # elif command == "foo":
         #     # Add your extra commands in blocks like this!
@@ -72,3 +79,5 @@ async def on_message(message):
 
 # Run the bot
 client.run(TOKEN)
+
+
